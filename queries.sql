@@ -60,7 +60,6 @@ ORDER BY
 
 -- Common table expression to calculate salesperson-wise revenue per day
 WITH sales_person AS (
-WITH sales_person AS (
     SELECT
         CONCAT(e.first_name, ' ', e.last_name) AS name,
         s.sale_date AS sale_date,
