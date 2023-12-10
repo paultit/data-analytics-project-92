@@ -117,7 +117,7 @@ ORDER BY
         ELSE 3
     END; -- Order the results based on the age categories
     
-    -- This SQL query calculates the total number of unique customers and the income they generated,
+-- This SQL query calculates the total number of unique customers and the income they generated,
 -- grouped by the date in the specified format (YYYY-MM). The results are sorted by date in ascending order.
 select 
 	to_char(sales.sale_date, 'YYYY-MM') as date,
